@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root{
+    --purple: #272262;
+    --pink: #ff216e;
+    --white: #e8e8e8;
+    --yellow: #ffdb02;
+    --orange: #ff5401;
+
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #272262;
+}
+
+header{
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+main{
+    background-color: var(--pink);
+}
+
+section{
+    border: 5px var(--white) solid;
+}
+
+footer{
+    background-color: var(--orange);
+}
