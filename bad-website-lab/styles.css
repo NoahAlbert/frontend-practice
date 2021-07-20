@@ -9,16 +9,15 @@ header {
     text-align: center;
     line-height: 20px;
 }
-h1 {
-    font-size: 70px;
-}
-p {
-    text-align: left;
-}
-li {
+
+.left{
     text-align: left;
 }
 
-#left{
-    text-align: left;
+.dark{
+    background-color: rgb(167, 143, 112);
+}
+
+.tight{
+    line-height: 10px;
 }
