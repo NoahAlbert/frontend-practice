@@ -36,97 +36,27 @@
 
                <section class="about">
                     <h2>About</h2>
-                    <br/>
-                        <div>
-                            <article>
-                                 <h3>Article One</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
-                            <article>
-                                <h3>Article Two</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
-                            <article>
-                                <h3>Article Three</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
-                            <article>
-                                <h3>Article Four</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
-                            <article>
-                                <h3>Article Five</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
-                            <article>
-                                <h3>Article Six</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
-                            <article>
-                                <h3>Article Seven</h3>
-                                 <p>
-                                      Lorem ipsum dolor sit, amet consectetur
-                                      adipisicing elit. Sed, quos magnam eius
-                                      necessitatibus similique numquam hic quaerat
-                                      veniam dolorem ratione libero aperiam placeat
-                                      saepe nesciunt velit, exercitationem, doloremque
-                                      enim ipsum?
-                                 </p>
-                            </article>
+                        <div id="customers">
+                            <h3>Loading...</h3>
                         </div>
                </section>
 
                <section id="contact">
                     <h2>Contact</h2>
                     <form onsubmit="handleSubmit(event)">
-                         <label for="name">
-                              Name:
+                         <label for="firstName">
+                              First Name:
                               <input
                                    type="text"
-                                   onchange="handleNameChange()"
-                                   name="name"
+                                   name="firstName"
+                              />
+                         </label>
+                         <br/>
+                         <label for="lastName">
+                              Last Name:
+                              <input
+                                   type="text"
+                                   name="lastName"
                               />
                          </label>
                          <br />
@@ -135,16 +65,7 @@
                               <input type="email" name="email" />
                          </label>
                          <br />
-                         <label for="message">
-                              Message:
-                              <textarea
-                                   name="message"
-                                   cols="30"
-                                   rows="4"
-                              ></textarea>
-                         </label>
-                         <br />
-                         <input type="submit" value="SEND" />
+                         <input type="submit" value="SAVE" />
                     </form>
                </section>
           </main>

@@ -77,16 +77,19 @@ section{
 .about{
     background-color: var(--white);
     height: 100%;
+    padding: 5%;
 }
 
 .about > div{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 article{
     max-width: 45%;
+    margin-top: 5%;
 }
 
 footer{
