@@ -7,6 +7,17 @@
                name="viewport"
                content="width=device-width, initial-scale=1.0"
           />
+          <link
+               href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+               rel="stylesheet"
+               integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+               crossorigin="anonymous"
+          />
+          <script
+               src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+               crossorigin="anonymous"
+          ></script>
           <link rel="stylesheet" href="styles.css" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,11 +44,12 @@
                               type="text"
                               placeholder="Enter your email adress"
                          />
-                         <button>Start free trial</button>
+                         <button class="btn btn-dark">Start free trial</button>
                     </div>
                     <small
                          >Try shopify for free for 14 days, no credit card
-                         required. By entering your email, you agree to recieve </br>
+                         required. By entering your email, you agree to recieve
+                         <br />
                          marketing emails from Shopify.
                     </small>
                </section>
@@ -47,9 +59,17 @@
                          alt="Laptop and phone showing online Shopify store. Man is posed jumping on the computer."
                     />
                </section>
-               <section id="section-articles">
+               <section class="pattern">
+                    <div class="wave">
+                    </div>
+                  </section>
+               <section id="section-articles" class="container">
                     <article>
-                         <img src="/assets/phone-tablet-and-laptop.svg" height="50px" alt="" />
+                         <img
+                              src="/assets/phone-tablet-and-laptop.svg"
+                              height="50px"
+                              alt=""
+                         />
                          <h4>Themes that are responsive and customizeable</h4>
                          <p>
                               No design skills needed. You have complete control
@@ -58,7 +78,7 @@
                          </p>
                     </article>
                     <article>
-                         <img src="/assets/bill.svg" height="50px" alt="" />
+                         <img src="/assets/invoices.svg" height="50px" alt="" />
                          <h4>Pricing as low as $9/month</h4>
                          <p>
                               Whether you sell online, on social media, in
@@ -76,26 +96,40 @@
                          </p>
                     </article>
                </section>
-          <hr>
-               <section>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+               <hr />
+               <section id="clients">
+                    <img src="/assets/clients/1.png" alt="Cee Cee's Closet logo" />
+                    <img
+                         src="/assets/clients/2.png"
+                         alt="Nalata logo"
+                    />
+                    <img src="/assets/clients/3.png" alt="Kirrin Finch logo"  />
+                    <img src="/assets/clients/4.png" alt="tokyo bike logo" />
+                    <img src="/assets/clients/5.png" alt="Meso goods logo" />
+                    <img src="/assets/clients/6.png" alt="coco and breezy logo" />
+                    <img
+                         src="/assets/clients/7.png"
+                         alt="brooklyn museum logo"
+                    />
+                    <img
+                         src="/assets/clients/8.png"
+                         alt="complex con logo"
+                    />
+                    <img src="/assets/clients/9.png" alt="adore me logo" />
                </section>
-               <section>testimonial</section>
-               <section>cta</section>
+               <hr>
+               <section id="testimonials">
+                    <h4>"Shopify is better than any other platform we've played with,<br>and we've played with them all."</h4>
+                    <p class="uppercase">Jonathan Bayme, CEO of Theory11</p>
+               </section>
+               <section>
+                    <button type="button" class="btn btn-dark btn-cta my-2">Start free trial</button>
+               </section>
           </main>
           <footer>
-               <ul>
-                    <li>TOS</li>
-                    <li>PrivPolicy</li>
+               <ul class="d-flex justify-content-around py-2">
+                    <li>Terms of Service</li>
+                    <li>Privacy Policy</li>
                </ul>
           </footer>
      </body>

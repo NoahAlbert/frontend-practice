@@ -17,17 +17,16 @@ body{
     text-align: center;
 }
 
-/* section{
-    border: 2px yellow solid;
+.uppercase{
+    text-transform: uppercase;
 }
 
-footer{
-    border: 2px blue solid;
-} */
+li{
+    list-style: none;
+}
 
 /* ==========HEADER========== */
 header{
-    /* border: 2px magenta solid; */
     background-color: var(--purple);
     height: 70px;
 }
@@ -63,6 +62,13 @@ h3{
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px){
+    h3{
+        display: none;
+    }
+}
+
 .form-cta{
     margin-bottom: 10px;
 }
@@ -94,12 +100,57 @@ small{
 #middle-image{
     background-color: var(--purple);
 }
+#middle-image img{
+    width: 50%;
+    padding-bottom: 3%;
+}
+
+/*========== WAVE ========*/
+
+.pattern {
+    height: 300px;
+    position: relative;
+    background-color: var(--purple);
+    background-image: linear-gradient(
+      315deg,
+      var(--purple) 0%,
+      var(--purple) 74%
+    );
+  }
+  
+  .pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .pattern{
+      height: 100px;
+    }
+  
+    .pattern:before {
+      height: 100px;
+    }
+  }
 
 /* ========ARTICLES======= */
 #section-articles{
     display: flex;
     justify-content: center;
 
+}
+
+@media only screen and (max-width: 900px){
+    #section-articles{
+        display: inline;
+    }
 }
 
 article{
@@ -114,4 +165,40 @@ article{
 #section-articles p{
 color: var(--grey-light);
 padding: 2% 0;
+}
+/* ========CLIENTS======== */
+#clients{
+    
+}
+#clients img{
+width: 80px;
+margin: .7rem 4px;
+}
+
+
+
+/* ========TESTIMONIALS======== */
+#testimonials{
+    margin-top: 3rem;
+}
+#testimonials h4{
+    font-weight: 550;
+}
+#testimonials p{
+    font-size: 11px;
+}
+
+/* ========FOOTER======== */
+  footer ul li {
+    color: var(--purple);
+    font-size: 10px;
+  }
+
+.btn-cta{
+    background-color: var(--purple);
+    padding: 0.5% 1%;
+    border: none;
+}
+.btn-cta:hover{
+    background-color: var(--grey-light);
 }
