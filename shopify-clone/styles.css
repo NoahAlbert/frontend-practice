@@ -17,17 +17,17 @@ body{
     text-align: center;
 }
 
-section{
+/* section{
     border: 2px yellow solid;
 }
 
 footer{
     border: 2px blue solid;
-}
+} */
 
 /* ==========HEADER========== */
 header{
-    border: 2px magenta solid;
+    /* border: 2px magenta solid; */
     background-color: var(--purple);
     height: 70px;
 }
@@ -42,22 +42,52 @@ header{
     margin-top: 17px;
 }
 
+hr{
+width: 85%;
+margin: 0 auto;
+color: var(--grey-light);
+}
+
 /* ============HERO============ */
 #section-hero{
     background-color: var(--purple);
     color: white;
-
+    padding-bottom: 15px;
 }
 
 h1{
     font-weight: 500;
-    margin: 10px 0;
+    padding: 10px 0;
 }
 h3{
     font-weight: 300;
     margin-bottom: 10px;
 }
+.form-cta{
+    margin-bottom: 10px;
+}
 
+.form-cta input{
+    border: 1px solid var(--grey-light);
+    border-radius: 4px;
+    width: 200px;
+    padding: 7px;
+}
+
+.form-cta button{
+    color: white;
+    background-color: var(--blue-green-dark);
+    padding: 7px;
+    border: 1px solid var(--blue-green-dark);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+small{
+    font-size: 9.5px;
+    font-weight: 100;
+    width: 40px;
+}
 
 /* ========SECTION-MIDDLE-IMAGE======= */
 
@@ -68,7 +98,7 @@ h3{
 /* ========ARTICLES======= */
 #section-articles{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -77,8 +107,8 @@ article{
     text-align: left;
 }
 
-#section-articles h4{
-
+#section-articles .logo{
+    size: 10%;
 }
 
 #section-articles p{
