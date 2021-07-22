@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding-left: 3%;
+    padding-top: 1.5%;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./img/dog.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /* background-color: #000000;
+    background-blend-mode: screen; */
+
+    height: 933px;
+}
+
+#hero > h1{
+    font-size: 10rem;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
