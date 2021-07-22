@@ -51,7 +51,37 @@ header{
 
 h1{
     font-weight: 500;
+    margin: 10px 0;
 }
 h3{
     font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+/* ========SECTION-MIDDLE-IMAGE======= */
+
+#middle-image{
+    background-color: var(--purple);
+}
+
+/* ========ARTICLES======= */
+#section-articles{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+article{
+    padding: 3% 4.5%;
+    text-align: left;
+}
+
+#section-articles h4{
+
+}
+
+#section-articles p{
+color: var(--grey-light);
+padding: 2% 0;
 }
