@@ -1,11 +1,11 @@
 import React from 'react'
+import Menu from './Menu'
 
 const Header = () => {
      return (
-    <>
-        <h1>This is my Header</h1>
-        <nav>HOME ABOUT CONTACT</nav>
-    </>
+    <div className="hero">
+        <h4 className="header">Noah's Noodles</h4>
+    </div>
      )
 }
 
